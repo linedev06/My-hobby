@@ -1,0 +1,50 @@
+.cima{
+    display: flex;
+    
+}
+img{
+border: 3px solid whitesmoke;
+border-radius: 4px;
+
+
+}
+.imagem1{
+    width: 300px;
+    height: 300px;
+
+}
+.imagem2{
+    width: 300px;
+    height: 300px;
+
+}
+.imagem3{
+    width: 300px;
+    height: 300px;
+
+}
+.imagem4{
+    width: 300px;
+    height: 300px;
+
+}
+
+.imagem1, .imagem2, .imagem3, .imagem4 {
+    transition: 0.4s;
+    margin-left: 125px;
+    margin-top: 200px;
+    justify-content: center;
+}
+
+.imagem1:hover, .imagem2:hover, .imagem3:hover, .imagem4:hover {
+    width: 350px;
+    height: 350px;
+}
+ 
+body{   
+    background-color: black;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
